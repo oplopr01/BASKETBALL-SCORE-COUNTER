@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./index.css">
+    <title>Score Board</title>
+    </head>
+    <body>
+        <div>
+        <div id="container">
+            <div id="home-score">
+                <h1 class="h1-el" id="home-team">HOME</h1>
+                <h2 class="score" id="home-score-txt">0</h2>
+                <div class="btn-div"  >
+                    <button class="btn" onclick="addPoint('home',1)">+1</button>
+                    <button class="btn" onclick="addPoint('home',2)">+2</button>
+                    <button class="btn" onclick="addPoint('home',3)">+3</button>
+                </div>
+            </div>
+            <div id="guest-score">
+                <h1 class="h1-el" id="guest-team">GUEST</h1>
+                <h2 class="score" id="guest-score-txt">0</h2>
+                <div class="btn-div">
+                    <button class="btn" onclick="addPoint('home1',1)">+1</button>
+                    <button class="btn" onclick="addPoint('home1',2)">+2</button>
+                    <button class="btn" onclick="addPoint('home1',3)">+3</button>
+                </div>
+            </div>
+          
+         
+        </div>
+    
+    </div>
+  <button class="btn-new-game" onclick="newGame()"> New Game</button>
+      
+    </body>
+    <script src="./index.js"></script>
+</html>

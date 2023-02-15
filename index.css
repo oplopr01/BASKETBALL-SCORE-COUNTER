@@ -1,0 +1,79 @@
+@font-face {
+    font-family: cursed;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+body{
+    background:  #1B244A;
+    display: grid;
+    /* grid-template-rows: 1fr auto; */
+    /* gap:2.5rem; */
+}
+#container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.h1-el, h2 {
+    padding:4vh 8vh;
+    margin:auto;
+    color: whitesmoke;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.score{
+    width: 5vh;
+    color: orangered;
+    background-color: black;
+    padding: 5vh 8vh;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    font-family:cursed;
+    padding-left:  20%  ;
+    padding-right: 20%;
+}
+
+.btn{
+    background-color:   #1B244A;
+    border: 1px solid aquamarine;
+    color: aquamarine;
+    border-radius: 5px;
+    margin: 0.5vh;
+    cursor: pointer;
+}
+
+.btn-div{
+    justify-content:space-around;
+    padding-left:  20%  ;
+    padding-right: 20%;
+    display: flex;
+}
+
+.btn-new-game{
+    display: inline-flex;
+    justify-self: center;
+    border: 3px dashed rgba(100, 185, 50, 0.664);
+    background:  #1B244A;
+    color:yellow;
+    padding: 0.5% 0.5%;
+    margin: 10%;
+    cursor: pointer;
+}
+.btn-new-game:hover{
+    color:#F94F6D;
+    font-family: cursed;
+}
+.btn:hover,
+.btn:focus  {
+  color:#F94F6D;  
+  border: 1PX solid #F94F6D;
+  transform: scale(1.05);}
+
+.highlighter{
+    color: lightgreen;
+    transform: scale3d(1.1,0.5,1.1);
+    text-decoration: underline  white 5px;
+}
